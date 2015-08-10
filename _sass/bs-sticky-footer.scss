@@ -21,5 +21,13 @@ body {
   .container .text-muted {
     margin: 20px 0;
   }
+
+
+  > div.navbar {
+    border: 0 solid transparent;
+    border-color: #e7e7e7;
+    margin-bottom: 0;
+    border-top-width: 1px;
+  }
 }
 

@@ -12,10 +12,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link href="/css/main.css" rel="stylesheet" type="text/css" media="all"> 
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-
   </head>
 
   <body>
@@ -38,32 +38,30 @@
             <li><a href="/cheatsheets">Cheatsheets</a>
             <li><a href="/resources">Resources</a>
           </ul>
-          <form class="navbar-form navbar-right" role="search">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="Search">
-            </div>
-            <button type="submit" class="btn btn-default">Submit</button>
-          </form>
-        </div><!-- /.navbar-collapse -->
+        </div>
       </nav>
 
       <div class="container">
         {{ content }}
       </div>
 
+    <footer id="footer">
+        <div class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-collapse collapse" id="footer-body">
+                    <p class="nav navbar-text">&copy; {{ site.time | date: '%Y' }}</p>
 
-    <div id="footer">
-      <div class="container">
-        <p class="text-muted">&copy; {{ site.time | date: '%Y' }}
-        </p>
-      </div>
-    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a href="http://github.com/crwang"><i class="fa fa-github"></i></a></li>
+                      <li><a href="https://www.linkedin.com/in/chrisrwang"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     {% include JB/analytics %}
 
-
-    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   </body>
