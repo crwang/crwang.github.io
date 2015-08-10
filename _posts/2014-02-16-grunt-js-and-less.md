@@ -1,7 +1,7 @@
 ---
 layout: post
 category : posts
-tagline: "Supporting tagline"
+tagline: 
 tags : [node.js, grunt, beginner, tutorial, less]
 ---
 How do you build LESS into CSS? How do you build it minified? How can you build it in your development environment?

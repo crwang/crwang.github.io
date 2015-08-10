@@ -1,7 +1,7 @@
 ---
-layout: page
-title: Tech Stuff!
-tagline: Coding references and other resources
+layout: page_index
+title: Tech stuff!
+tagline:
 ---
 
 {% include JB/setup %}
