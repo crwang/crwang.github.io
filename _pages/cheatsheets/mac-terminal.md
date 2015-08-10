@@ -1,5 +1,5 @@
 ---
-permalink: "/cheatsheets/github/"
+permalink: "/cheatsheets/mac-terminal/"
 layout: page
 title:  "Mac Terminal Cheatsheet"
 ---
