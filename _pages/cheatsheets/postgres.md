@@ -16,17 +16,19 @@ title:  "Postgres Cheatsheet"
 *   Not case sensitive
 *   Postgres for Mac: [http://postgresapp.com/](http://postgresapp.com/)
 
-## Commands
-
 ~/Applications/Postgres.app/Contents/MacOS/bin/createuser -s chris
 
-### Switch connections
+## Commands in psql
 
-`Type \c [database_name]; and then press ENTER`
-
-### Exit Postgres command-line utility
-
-`Type \q and then press ENTER to quit psql.`
+| Command        | Actions |
+| ------------- |:-------------|
+| \l      | List all databases |
+| \c dbname      | Connect to new database |
+| \dt  | View list of relations/tables |
+| \h  | Get a help on syntax of SQL commands |
+| \?  | Lists all psql slash commands. |
+| \set  | System variables list. |
+| \q  | Quit psql |
 
 ## Connecting
 
