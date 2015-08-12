@@ -4,10 +4,4 @@ layout: page_index
 title:  "Cheatsheets"
 ---
 
-<ul>
-{% for node in site.pages %}
-    {% if node.url contains "/cheatsheets/" and node.url != "/cheatsheets/"%}
-    <li><a href="{{node.url}}">{{node.title | remove: "Cheatsheet" }}</a></li>
-    {% endif %}
-{% endfor %}
-</ul>
+{% include CW/page_index_list path_part_length=3 remove_from_title="Cheatsheet" %}

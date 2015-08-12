@@ -1,0 +1,11 @@
+<ul>
+{% for node in site.pages %}
+    {% if node.url contains page.permalink and node.url != page.permalink %}
+        {% assign path = node.url | split: '/' %}
+        {% assign path_length = path | size %}
+        {% if path_length == include.path_part_length %}
+            <li><a href="{{node.url}}">{{node.title | remove: include.remove_from_title }}</a></li>
+        {% endif %}
+    {% endif %}
+{% endfor %}
+</ul>

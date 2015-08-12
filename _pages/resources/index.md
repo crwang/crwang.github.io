@@ -4,10 +4,4 @@ layout: page_index
 title:  "Resources"
 ---
 
-<ul>
-{% for node in site.pages %}
-    {% if node.url contains "/resources/" and node.url != "/resources/"%}
-    <li><a href="{{node.url}}">{{node.title }}</a></li>
-    {% endif %}
-{% endfor %}
-</ul>
+{% include CW/page_index_list path_part_length=3 remove_from_title="" %}

@@ -4,6 +4,11 @@ layout: page
 title:  "Sublime Text Cheatsheet"
 ---
 
+<ol class="breadcrumb">
+  <li><a href="/cheatsheets">Cheatsheets</a></li>
+  <li>Sublime Text</li>
+</ol>
+
 ## Recommended Settings
 
 ### Rails
