@@ -9,6 +9,20 @@ title:  "Jekyll Cheatsheet"
   <li>Jekyll</li>
 </ol>
 
+## Commands
+
+### Start the Server
+
+```sh
+
+# Start the server, by default it runs watch
+$ jekyll serve
+
+```
+
+
+## Other Helps
+
 [http://stackoverflow.com/a/28737999/466390](http://stackoverflow.com/a/28737999/466390)
 
 [http://veithen.github.io/2015/03/26/jekyll-bootstrap.html](http://veithen.github.io/2015/03/26/jekyll-bootstrap.html)
