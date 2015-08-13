@@ -2,6 +2,7 @@
 layout: page_index
 title: Tech stuff!
 tagline:
+description: Tech Space for storing and sharing programming notes
 ---
 
 {% include JB/setup %}
