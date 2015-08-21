@@ -57,3 +57,4 @@ end
 # Then call it like
 MyModelSerializer.new(my_model).hashed
 ```
+
