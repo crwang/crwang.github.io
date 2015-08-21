@@ -2,9 +2,9 @@
 layout: post
 category : posts
 title: Grunt: Building LESS into CSS
-tagline: 
 tags : [node.js, grunt, beginner, tutorial, less]
 ---
+
 How do you build LESS into CSS? How do you build it minified? How can you build it in your development environment?
 
 These are the common scenarios when working with LESS and they are easily solved with Grunt.
