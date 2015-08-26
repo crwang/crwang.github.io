@@ -82,6 +82,12 @@ A great way to use Sublime as more of an IDE is to enabled the sidebar view, to 
 
 [https://github.com/airbnb/javascript/blob/master/linters/SublimeLinter/SublimeLinter.sublime-settings](https://github.com/airbnb/javascript/blob/master/linters/SublimeLinter/SublimeLinter.sublime-settings)
 
+## Zen Tabs
+
+Provide a more intuitive approach for going through tabs.  Similar to Notepad++ and Visual Studio.
+
+https://github.com/travmik/ZenTabs
+
 ## Customization
 
 ### Color Settings

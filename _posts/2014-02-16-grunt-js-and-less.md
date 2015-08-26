@@ -2,6 +2,7 @@
 layout: post
 category : posts
 title: Grunt: Building LESS into CSS
+tagline:
 tags : [node.js, grunt, beginner, tutorial, less]
 ---
 
@@ -17,12 +18,12 @@ The set up is simple if you've set up your Gruntfile.js
 
 Install using the node package manager from your command line and normally you'll want to save the version information as well (using the --save-dev):
 
-`npm install grunt-contrib-less --save-dev`    
+`npm install grunt-contrib-less --save-dev`
 
 Then, add the configuration (which is really just javascript data):
 
 ```js
-var watchFilesLess = 'Web/assets/style/**/*.less'; 
+var watchFilesLess = 'Web/assets/style/**/*.less';
 
 grunt.initConfig({
     pkg : grunt.file.readJSON('package.json'),
@@ -34,7 +35,7 @@ grunt.initConfig({
             options : {
                 spawn : false
             }
-        }       
+        }
     },
     less: {
         dev: {
@@ -56,17 +57,17 @@ grunt.initConfig({
     },
     ...
 });
-```    
+```
 
 Define the tasks:
 
 `grunt.loadNpmTasks('grunt-contrib-less');`
-    
+
 
 I normally run the task as part of my default, meaning that when I type 'grunt' on the command-line, it will run. Order is important here, and my 'less' should be before my 'watch'.
 
 `grunt.registerTask('default', ['less:production', 'watch']);`
-    
+
 
 Then, I have a task for just building the css, which is run on the command-line by typing: grunt css
 
