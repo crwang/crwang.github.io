@@ -1,7 +1,7 @@
 ---
 layout: post
 category : posts
-title: Grunt: Building LESS into CSS
+title: "Grunt Building LESS into CSS"
 tagline:
 tags : [node.js, grunt, beginner, tutorial, less]
 ---

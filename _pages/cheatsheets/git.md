@@ -28,7 +28,7 @@ The normal flow if I need to rebase a development branch.
 # Pull the latest from origin
 $ git checkout develop
 
-$ git pull 
+$ git pull
 
 $ git checkout [my-branch]
 
@@ -36,7 +36,7 @@ $ git checkout [my-branch]
 $ git rebase -i develop
 
 # Overwrite the branch on origin
-$ git push -f origin 
+$ git push -f origin
 
 ```
 
@@ -64,3 +64,9 @@ git checkout master
 
 git rebase upstream/master
 ```
+
+## Squash all commits
+
+http://stackoverflow.com/questions/1657017/how-to-squash-all-git-commits-into-one
+
+`git rebase --root -i`

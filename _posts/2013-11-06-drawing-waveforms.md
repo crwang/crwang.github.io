@@ -1,8 +1,8 @@
 ---
 layout: post
 category : posts
-title: Drawing waveforms
-tagline: 
+title: "Drawing waveforms"
+tagline:
 tags : [audio, notes]
 ---
 

@@ -1,7 +1,7 @@
 ---
 permalink: "/cheatsheets/rendr/code-notes/"
 layout: page
-title:  "Rendr: Code Notes
+title:  "Rendr: Code Notes"
 ---
 
 ## Models and Collections
@@ -11,3 +11,4 @@ title:  "Rendr: Code Notes
 ```js
 _.extend(BaseModel.prototype, syncer);
 ```
+
