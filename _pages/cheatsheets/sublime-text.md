@@ -118,3 +118,22 @@ Example:
             "trim_trailing_white_space_on_save": true
         }
     }
+
+## Keyboard commands
+
+Goto Anything
+
+Use Goto Anything to open files with only a few keystrokes, and instantly jump to symbols, lines or words.
+
+Triggered with ⌘P, it is possible to:
+
+Type part of a file name to open it.
+Type @ to jump to symbols, # to search within the file, and : to go to a line number.
+These shortcuts can be combined, so tp@rf may take you to a function read_file within a file text_parser.py. Similarly, tp:100 would take you to line 100 of the same file.
+
+## Mac OS - Run from Terminal
+
+Slightly modified from https://www.sublimetext.com/docs/3/osx_command_line.html to put the symlink in `~/usr/bin` instead of `~/bin`
+```bash
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/usr/bin/subl
+```
