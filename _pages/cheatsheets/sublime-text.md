@@ -58,9 +58,37 @@ A great way to use Sublime as more of an IDE is to enabled the sidebar view, to 
 
 [https://github.com/CraigWilliams/BeautifyRuby](https://github.com/CraigWilliams/BeautifyRuby)
 
-### Ruby Tests
+### Ruby Tests (RubyTest)
 
 [https://github.com/maltize/sublime-text-2-ruby-tests](https://github.com/maltize/sublime-text-2-ruby-tests)
+
+#### Set up for RVM
+
+Sublime -> Preferences -> Package Settings -> RubyTest -> Settings (User/Default)
+
+```
+{
+  "check_for_rvm": true,
+  "check_for_bundler": true
+}
+```
+
+#### Set up for Ruby Install/chruby
+
+Sublime -> Preferences -> Package Settings -> RubyTest -> Settings (User/Default)
+
+https://github.com/maltize/sublime-text-2-ruby-tests/issues/188
+
+```
+{
+  "run_ruby_unit_command": "source /usr/local/opt/chruby/share/chruby/chruby.sh && chruby 2.1.6 && ruby -Itest {relative_path}",
+  "run_single_ruby_unit_command": "source /usr/local/opt/chruby/share/chruby/chruby.sh && chruby 2.1.6 && ruby -Itest {relative_path} -n '{test_name}'",
+  "run_rspec_command": "source /usr/local/opt/chruby/share/chruby/chruby.sh && chruby 2.1.6 && rspec {relative_path}",
+  "run_single_rspec_command": "source /usr/local/opt/chruby/share/chruby/chruby.sh && chruby 2.1.6 && rspec {relative_path}:{line_number}",
+}
+```
+
+
 
 ### Spaces and new lines
 
