@@ -161,10 +161,13 @@ These shortcuts can be combined, so tp@rf may take you to a function read_file w
 
 ## Mac OS - Run from Terminal
 
-Slightly modified from https://www.sublimetext.com/docs/3/osx_command_line.html to put the symlink in `/usr/bin` instead of `~/bin`
+Slightly modified from https://www.sublimetext.com/docs/3/osx_command_line.html to put the symlink in `/usr/local/bin` instead of `~/bin`
+
+Previously, it was ok to use `/usr/bin` but from El Capitan (rootless mode) that is no longer permitted.  There are ways to disable it but it's better to just use `/usr/local/bin` now.
 
 ```bash
 
-sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/bin/subl
+sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
 ```
+
