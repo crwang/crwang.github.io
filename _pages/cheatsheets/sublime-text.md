@@ -141,7 +141,7 @@ Example:
         ],
         "settings":
         {
-            "color_scheme": "Packages/Color Scheme - Default/Cobalt.tmTheme"
+            "color_scheme": "Packages/Color Scheme - Default/Cobalt.tmTheme",
             "draw_white_space": "all",
             "trim_trailing_white_space_on_save": true
         }
