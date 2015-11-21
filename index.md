@@ -9,8 +9,6 @@ description: Tech Space for storing and sharing programming notes
 
 This site is aimed at sharing tech resources and insights that I have found useful.
 
-As a tech person, I've decided to use a personal url, not because I'm vain (or I try not to be), but because it keeps from offending or misrespresenting companies.
-
 ### Recent Posts
 <ul class="posts">
   {% for post in site.posts limit:10 %}
