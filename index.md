@@ -1,16 +1,16 @@
 ---
-layout: page_index
-title: Tech stuff!
+layout: default_home
+title: Tech Blog & Resources
 tagline:
 description: Tech Space for storing and sharing programming notes
 ---
 
 {% include JB/setup %}
 
-This site is aimed at sharing tech resources and insights that I have found useful. 
+This site is aimed at sharing tech resources and insights that I have found useful.
 
-As a tech person, I've decided to use a personal url, not because I'm vain (or I try not to be), but because it keeps from offending or misrespresenting companies and it's a way to share my knowledge/expertise.
-    
+As a tech person, I've decided to use a personal url, not because I'm vain (or I try not to be), but because it keeps from offending or misrespresenting companies.
+
 ### Recent Posts
 <ul class="posts">
   {% for post in site.posts limit:10 %}
