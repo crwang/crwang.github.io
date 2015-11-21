@@ -4,6 +4,11 @@ layout: page
 title:  "Fonts"
 ---
 
+<ol class="breadcrumb">
+  <li><a href="/resources">Resources</a></li>
+  <li>Fonts</li>
+</ol>
+
 Myriad Light
 
 - Similar: Vegur

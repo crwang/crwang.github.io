@@ -4,7 +4,12 @@ layout: page
 title:  "Placeholder Images"
 ---
 
-Placeholder images are helpful for development mockups and demo apps because it gives the viewers an understanding of what the page could look like in a real layout or even in deployment (if the placeholder is an image and not just a dimensions box). There are different kinds of placeholder images with varying levels of advantages. 
+<ol class="breadcrumb">
+  <li><a href="/resources">Resources</a></li>
+  <li>Placeholder Images</li>
+</ol>
+
+Placeholder images are helpful for development mockups and demo apps because it gives the viewers an understanding of what the page could look like in a real layout or even in deployment (if the placeholder is an image and not just a dimensions box). There are different kinds of placeholder images with varying levels of advantages.
 ## [PixelHolder][1]
 
 ## [Lorem Pixel][2]
@@ -30,4 +35,4 @@ However, it is a bit more limited because it just displays the placeholder and t
  [3]: http://placehold.it
  [4]: http://placekitten.com
  [5]: http://imsky.github.io/holder/
- 
+

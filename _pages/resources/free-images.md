@@ -4,6 +4,11 @@ layout: page
 title:  "Free Images"
 ---
 
+<ol class="breadcrumb">
+  <li><a href="/resources">Resources</a></li>
+  <li>Free Images</li>
+</ol>
+
 http://jeshoots.com/
 http://pixabay.com/
 http://cupcake.nilssonlee.se/
