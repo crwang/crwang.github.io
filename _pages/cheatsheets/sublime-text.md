@@ -88,8 +88,6 @@ https://github.com/maltize/sublime-text-2-ruby-tests/issues/188
 }
 ```
 
-
-
 ### Spaces and new lines
 
 [https://github.com/sindresorhus/editorconfig-sublime](https://github.com/sindresorhus/editorconfig-sublime)
@@ -110,11 +108,17 @@ https://github.com/maltize/sublime-text-2-ruby-tests/issues/188
 
 [https://github.com/airbnb/javascript/blob/master/linters/SublimeLinter/SublimeLinter.sublime-settings](https://github.com/airbnb/javascript/blob/master/linters/SublimeLinter/SublimeLinter.sublime-settings)
 
-## Zen Tabs
+### Zen Tabs
 
 Provide a more intuitive approach for going through tabs.  Similar to Notepad++ and Visual Studio.
 
 https://github.com/travmik/ZenTabs
+
+### Highlight
+
+Provides functionality to copy as html/rtf.  This is useful for me as a way to copy code and paste it into my notes program (currently OneNote).
+
+https://github.com/n1k0/SublimeHighlight
 
 ## Customization
 
