@@ -1,1 +1,5 @@
 
+```sh
+ jekyll serve
+```
+
