@@ -88,6 +88,28 @@ https://github.com/maltize/sublime-text-2-ruby-tests/issues/188
 }
 ```
 
+These can be specified on a per-project basis now:
+https://github.com/maltize/sublime-text-2-ruby-tests/pull/239
+
+For now, manually hacking up the env for docker.
+
+```
+{
+    "folders":
+    [
+        {
+            "path": "quiz_api"
+        }
+    ],
+    "settings": {
+        "draw_white_space": "all",
+        "trim_trailing_white_space_on_save": true,
+        "run_rspec_command": "export DOCKER_HOST=tcp://192.168.99.100:2376 && export DOCKER_CERT_PATH=/Users/cwang/.docker/machine/machines/dinghy && export DOCKER_TLS_VERIFY=1 && export DOCKER_MACHINE_NAME=dinghy && /usr/local/bin/docker-compose run --rm web bundle exec rspec {relative_path}",
+        "run_single_rspec_command": "export DOCKER_HOST=tcp://192.168.99.100:2376 && export DOCKER_CERT_PATH=/Users/cwang/.docker/machine/machines/dinghy && export DOCKER_TLS_VERIFY=1 && export DOCKER_MACHINE_NAME=dinghy && /usr/local/bin/docker-compose run --rm web bundle exec rspec {relative_path}:{line_number}",
+    }
+}
+```
+
 ### Spaces and new lines
 
 [https://github.com/sindresorhus/editorconfig-sublime](https://github.com/sindresorhus/editorconfig-sublime)
