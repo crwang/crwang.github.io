@@ -13,3 +13,7 @@ title:  "Mac OS Cheatsheet"
 HyperSwitch
 
 https://bahoom.com/hyperswitch
+
+## Native-ify web pages so they show up as apps
+
+https://github.com/jiahaog/nativefier
