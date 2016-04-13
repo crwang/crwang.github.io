@@ -23,3 +23,11 @@ Different colors for different languages
 # Add this to allow killing of the background job
 alias kk='jobs -p | xargs kill -9'
 ```
+
+## Dvorak gotchas
+
+If you're like me, you use dvorak and Mac's built in Dvorak - Querty layout.
+
+But, there's a bug in their layout that causes `ctrl + c` not to work on the terminal.
+
+The workaround is to use the alternative command: `cmd + .`
