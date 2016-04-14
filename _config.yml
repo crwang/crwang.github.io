@@ -33,7 +33,7 @@ sass:
 
 markdown: kramdown
 
-highlighter: pygments
+highlighter: rouge
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
