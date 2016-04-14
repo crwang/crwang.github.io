@@ -31,9 +31,7 @@ sass:
   # nested 138,7kB, compact 129,1kB, expanded 135,9 kB, compressed 122,4 kB
   style: compressed
 
-markdown: redcarpet # Triple backtick notation
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+markdown: kramdown
 
 highlighter: pygments
 
