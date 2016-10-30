@@ -22,6 +22,8 @@ http://publicdomainarchive.com/
 
 http://www.stocka.co/
 
+https://www.pexels.com
+
 ## CC0 - http://creativecommons.org/publicdomain/zero/1.0/
 
 http://barnimages.com/
