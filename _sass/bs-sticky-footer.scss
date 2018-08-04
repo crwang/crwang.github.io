@@ -16,18 +16,24 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: #f5f5f5;
+  border-top: 1px #ddd solid;
+  box-shadow: 0 -4px 12px 0 rgba(0,0,0,.0785);
 
   .container .text-muted {
     margin: 20px 0;
   }
-
 
   > div.navbar {
     border: 0 solid transparent;
     border-color: #e7e7e7;
     margin-bottom: 0;
     border-top-width: 1px;
+    height: $footer-height;
+    border-radius: 0;
+    border: 0;
   }
 }
 
+#footer-body {
+  margin-top: 8px;
+}

@@ -1,9 +1,11 @@
 ---
 layout: post
-category : posts
+category: posts
 title: "Creating Custom Dashboards in Gerrit"
 tagline:
-tags : [gerrit, tutorial]
+tags: [gerrit, tutorial]
+thumbnail:
+image:
 ---
 
 Gerrit has a powerful mechanism for creating dashboards.
@@ -21,11 +23,11 @@ The URL parameter approach is useful for sharing different dashboards and for us
 
 User dashboards can be created with the URL parameter approach.
 
-https://gerrit-review.googlesource.com/Documentation/user-dashboards.html#project-dashboards
+[https://gerrit-review.googlesource.com/Documentation/user-dashboards.html#project-dashboards](https://gerrit-review.googlesource.com/Documentation/user-dashboards.html#project-dashboards)
 
 Gerrit Dash Creator is a really helpful tool to get started because it takes a git config file-formatted dashboard file and converts it into the URL which you can then use adhoc and by adding that URL to your dashboard.
 
-https://github.com/openstack/gerrit-dash-creator
+[https://github.com/openstack/gerrit-dash-creator](https://github.com/openstack/gerrit-dash-creator)
 
 ## Create a project dashboard
 
@@ -35,7 +37,7 @@ In order to add a dashboard into gerrit's project's dashboard area, you must add
 
 Here was a helpful approach I found to actually getting a branch created up there:
 
-http://comments.gmane.org/gmane.org.wikimedia.wikivideo/534
+[http://comments.gmane.org/gmane.org.wikimedia.wikivideo/534](http://comments.gmane.org/gmane.org.wikimedia.wikivideo/534)
 
 ```sh
 git checkout --orphan custom-dashboards
@@ -103,7 +105,7 @@ git commit -a -m "add Project dashboard"
 
 ### Flush the cache (if necessary):
 
-https://gerrit-review.googlesource.com/Documentation/config-gerrit.html
+[https://gerrit-review.googlesource.com/Documentation/config-gerrit.html](https://gerrit-review.googlesource.com/Documentation/config-gerrit.html)
 
 If the dashboard doesn't show up, you may need to flush the cache to get the dashboard to show up.
 
@@ -131,10 +133,10 @@ git push origin :refs/meta/dashboards/site
 
 ### Gerrit dashboard documentation
 
-https://gerrit-review.googlesource.com/Documentation/user-dashboards.html
+[https://gerrit-review.googlesource.com/Documentation/user-dashboards.html](https://gerrit-review.googlesource.com/Documentation/user-dashboards.html)
 
 ### Dashboard Creator
 
 Creates the URL for a dshboard
 
-https://github.com/openstack/gerrit-dash-creator
+[https://github.com/openstack/gerrit-dash-creator](https://github.com/openstack/gerrit-dash-creator)

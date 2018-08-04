@@ -4,56 +4,92 @@
 
 /* path to glyphicons */
 
-$icon-font-path: "_sass/bootstrap/";
+$icon-font-path: "../assets/fonts/";
 
 /* custom variable */
+$font-family-sans-serif: 'Spectral', serif;
+$font-size-base: 18px !default;
+$font-size-large:         ceil(($font-size-base * 1.25)) !default;
+$font-size-small:         ceil(($font-size-base * 0.85)) !default;
+
+$font-size-h1:            floor(($font-size-base * 2)) !default;
+$font-size-h2:            floor(($font-size-base * 1.8)) !default;
+$font-size-h3:            ceil(($font-size-base * 1.5)) !default;
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default;
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default;
+
+$jumbotron-bg:                   white;
+$jumbotron-heading-color:        black;
 
 @import "bootstrap";
 @import "syntax";
 
-$footer-height: 60px;
-$body-margin-bottom: 30px;
+$footer-height: 70px;
+$body-margin-bottom: 40px;
 
 /* because navbar is 50px + 1 for border */
 
 @import "bs-sticky-footer";
-
 @import "blog";
+
 table {
     @extend .table;
 }
 
-.jumbotron,
-.navbar-transparent {
-    background-color: #222;
-    color: white;
+.jumbotron {
+  padding-top: 120px;
+  min-height: 400px;
+  h1 {
+    font-size: 32px;
+  }
+  p {
+    color: $gray;
+  }
 }
 
-.jumbotron {
-    h1 {
-        font-size: 32px;
-    }
+
+.jumbotron.main {
+  padding-top: 160px;
+  h1 {
+    font-size: 160px;
+    color: #55cc88;
+  }
 }
-#footer > div.navbar {
-    height: $footer-height;
-    border-radius: 0;
-    border: 0;
-}
+
 .navbar-transparent {
-    .navbar-nav>li>a {
-        &:hover {
-            background-color: transparent;
-            color: white;
-        }
+  .navbar-nav>li>a {
+    color: #666666;
+    &:hover {
+      background-color: transparent;
+      color: $brand-primary;
     }
+  }
 }
 
 .img-profile {
     width: 120px;
     height: 120px;
     border: 4px solid white;
+    &.img-profile-sm {
+        width: 60px;
+        height: 60px;
+        border: 0;
+    }
 }
-
+.media-profile {
+  .media-heading {
+    font-size: 14px;
+    padding-top: 4px;
+  }
+  .media-body {
+    p {
+      font-size: 14px;
+      color: #666666;
+      margin: 0;
+    }
+  }
+}
 .navbar-nav.nav.center {
     display: inline-block;
     float: none;

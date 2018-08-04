@@ -9,28 +9,33 @@ title:  "Free Images"
   <li>Free Images</li>
 </ol>
 
-http://jeshoots.com/
-http://pixabay.com/
-http://cupcake.nilssonlee.se/
-http://www.uhdwallpapers.org/
-http://kaboompics.com/
-http://foodiesfeed.com/
-http://www.raumrot.com/10/
-http://jaymantri.com/
+[http://jeshoots.com/](http://jeshoots.com/)
 
-http://publicdomainarchive.com/
+[http://pixabay.com/](http://pixabay.com/)
 
-http://www.stocka.co/
+[http://cupcake.nilssonlee.se/](http://cupcake.nilssonlee.se/)
 
-https://www.pexels.com
+[http://www.uhdwallpapers.org/](http://www.uhdwallpapers.org/)
 
-## CC0 - http://creativecommons.org/publicdomain/zero/1.0/
+[http://kaboompics.com/](http://kaboompics.com/)
 
-http://barnimages.com/
+[http://foodiesfeed.com/](http://foodiesfeed.com/)
 
-http://skitterphoto.com/
+[http://www.raumrot.com/10/](http://www.raumrot.com/10/)
 
+[http://jaymantri.com/](http://jaymantri.com/)
 
-## Posts about about free images
+[http://publicdomainarchive.com/](http://publicdomainarchive.com/)
 
-https://bootstrapbay.com/blog/free-stock-photos/
+[https://www.pexels.com](https://www.pexels.com)
+
+Great place to get images, searchable.
+
+## CC0
+
+Creative Commons Zero image sites
+
+[http://barnimages.com/](http://barnimages.com/)
+
+[http://skitterphoto.com/](http://skitterphoto.com/)
+

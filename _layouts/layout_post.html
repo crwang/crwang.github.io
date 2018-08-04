@@ -11,7 +11,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/css/main.css" rel="stylesheet" type="text/css" media="all">
   <link href="https://fonts.googleapis.com/css?family=Spectral:300,400,400i,700" rel="stylesheet">  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
   <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
   {% include JB/analytics %}
@@ -19,31 +18,33 @@
 </head>
 
 <body>
-  <div class="jumbotron text-center">
-    <div class="container">
-      <img class="img-circle img-profile" src="/assets/images/chris-face-bw.jpg">
-      <h1>{{ page.title }}</h1>
-    </div>
-  </div>
   <div class="container">
-    {{ content }}
+    <div class="row">
+      <div class="col-sm-8 col-sm-offset-2">
+        {{ content }}
+      </div>
+    </div>
   </div>
   <footer id="footer">
     <div class="navbar navbar-transparent">
-        <div class="container">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
             <div class="navbar-collapse collapse" id="footer-body">
-                <ul class="nav navbar-nav navbar-left">
-                  <li><a href="/" title="Home"><i class="fa fa-home"></i></a></li>
-                  <li><a href="/cheatsheets" title="Cheatsheets"><i class="fa fa-briefcase"></i></a></li>
-                  <li><a href="/resources" title="Resources"><i class="fa fa-list"></i></a></li>
-                  <li><a href="/categories" title="Posts"><i class="fa fa-file-o"></i></a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="http://github.com/crwang"><i class="fa fa-github"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/chrisrwang"><i class="fa fa-linkedin"></i></a></li>
-                </ul>
+              <ul class="nav navbar-nav navbar-left">
+                <li><a href="/" title="Home"><i class="fa fa-home"></i></a></li>
+                <li><a href="/cheatsheets" title="Cheatsheets"><i class="fa fa-briefcase"></i></a></li>
+                <li><a href="/resources" title="Resources"><i class="fa fa-list"></i></a></li>
+                <li><a href="/categories" title="Posts"><i class="fa fa-file-o"></i></a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="http://github.com/crwang" title="Github"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/chrisrwang" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
             </div>
+          </div>
         </div>
+      </div>
     </div>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>

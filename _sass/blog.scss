@@ -23,7 +23,9 @@
 .tag_box {
   list-style: none;
   margin: 0;
-  overflow: hidden; }
+  overflow: hidden;
+  font-size: small;
+}
 
 .tag_box li {
   line-height: 28px; }

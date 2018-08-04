@@ -3,7 +3,9 @@ layout: post
 category : posts
 title: "Drawing waveforms"
 tagline:
-tags : [audio, notes]
+tags: [audio, notes]
+thumbnail:
+image:
 ---
 
 http://mark-dot-net.blogspot.com/2008/10/volume-metering-and-audio-waveform.html

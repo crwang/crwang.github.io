@@ -1,12 +1,20 @@
+<div class="media media-profile">
+  <div class="media-left">
+    <img class="img-circle img-profile img-profile-sm" src="/assets/images/chris-face-bw.jpg">
+  </div>
+  <div class="media-body">
+    <h5 class="media-heading"><a href="/">Chris Wang</a></h5>
+    <p>Engineering @ Instructure. Passionate about Tech and People</p>
+    <p><span class="date">{{ page.date | date_to_string }}</span></p>
+  </div>
+</div>
+
 <div class="page-header">
   <h1>{{ page.title }} {% if page.tagline %}<small>{{page.tagline}}</small>{% endif %}</h1>
 </div>
 
 <div class="row post-full">
   <div class="col-xs-12">
-    <div class="date">
-      <span>{{ page.date | date_to_long_string }}</span>
-    </div>
     <div class="content">
       {{ content }}
     </div>
@@ -17,7 +25,7 @@
       {% assign categories_list = page.categories %}
       {% include JB/categories_list %}
     </ul>
-  {% endunless %}  
+  {% endunless %}
 
   {% unless page.tags == empty %}
     <ul class="tag_box inline">
@@ -25,8 +33,8 @@
       {% assign tags_list = page.tags %}
       {% include JB/tags_list %}
     </ul>
-  {% endunless %}  
-  
+  {% endunless %}
+
     <hr>
     <ul class="pagination">
     {% if page.previous %}
