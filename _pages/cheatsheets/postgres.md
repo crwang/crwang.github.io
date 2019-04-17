@@ -48,10 +48,6 @@ Host: localhost Port: 5432 (default) User: your user name Password: blank Databa
 
 [http://www.pgadmin.org/](http://www.pgadmin.org/)
 
-### Induction
-
-[http://inductionapp.com/](http://inductionapp.com/)
-
 ## Common pitfalls
 
 *   Not including the path. ** Add to the ~/.bash_profile and use source ~/.bash_profile to reset it on the current terminal.
