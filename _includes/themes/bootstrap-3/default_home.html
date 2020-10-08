@@ -10,24 +10,53 @@
   <meta name="author" content="{{ site.author.name }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/css/main.css" rel="stylesheet" type="text/css" media="all">
-  <link href="https://fonts.googleapis.com/css?family=Spectral:300,400,400i,700" rel="stylesheet">  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-  <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+  <link href="https://fonts.googleapis.com/css?family=Spectral:300,400,400i,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css"
+    href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate"
+    title="Sitewide ATOM Feed">
+  <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate"
+    title="Sitewide RSS Feed">
   {% include JB/analytics %}
-  <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png"/>
+  <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png" />
 </head>
 
 <body>
   <div class="jumbotron main text-center">
     <div class="container">
-      <h1>hello!</h1>
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 text-left">
+          <div class="media">
+            <div class="media-body">
+              <h1 class="media-heading">Chris Wang</h1>
+              <p>
+                Engineering leader at Ascent (<a href="https//www.ascentregtech.com">www.ascentregtech.com</a>)
+              </p>
+              <p>
+                I love building and working with high caliber, ambitious teams to accomplish more together than any
+                single
+                individual can.
+              </p>
+            </div>
+            <div class="media-left">
+              <img class="img-circle img-profile" src="/assets/images/chris-face-bw.jpg">
+            </div>
+          </div>
+          <p class="text-center">
+            <a href="http://github.com/crwang"><i class="fa fa-github"></i></a>
+            <span>·</span>
+            <a href="https://www.linkedin.com/in/chrisrwang"><i class="fa fa-linkedin"></i></a>
+          </p>
+        </div>
+      </div>
     </div>
   </div>
   <div class="container">
     {{ content }}
   </div>
-  <footer id="footer">
+  <!-- <footer id="footer">
     <div class="navbar navbar-transparent">
       <div class="container">
         <div class="navbar-collapse collapse" id="footer-body">
@@ -44,7 +73,7 @@
         </div>
       </div>
     </div>
-  </footer>
+  </footer> -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
