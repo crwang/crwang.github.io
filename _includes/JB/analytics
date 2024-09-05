@@ -3,6 +3,8 @@
 {% if is_production and site.JB.analytics.provider and page.JB.analytics != false %}
 
 {% case site.JB.analytics.provider %}
+{% when "ga4" %}
+  {% include JB/analytics-providers/ga4 %}
 {% when "gauges" %}
   {% include JB/analytics-providers/gauges %}
 {% when "google" %}
